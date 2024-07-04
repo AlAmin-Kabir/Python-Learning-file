@@ -1,5 +1,5 @@
-Hi
-This is my PYTHON TUTORIAL process and related pages...all Details.
+Hi<br>
+This is my PYTHON TUTORIAL process and related pages...all Details.<br>
 --------------------------------INDEX--------------------------------
 1. Variables
 2. Receiving Input
