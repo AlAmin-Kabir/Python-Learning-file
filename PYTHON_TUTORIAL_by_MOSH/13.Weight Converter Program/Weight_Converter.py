@@ -4,9 +4,9 @@
 4. If Lbs-convert to kg.'''
 Weight = float(input('Enter Weight.\n'))
 I = input('Kg or Lbs?')
-if I=="K":
+if I.upper()=="K":
     Converted = Weight*2.20462
-    print('The weight is ',Converted,' lb(s)')
+    print(f'The weight is {Converted} lb(s)')
 else:
     Converted = Weight*0.453592
-    print(f'The weight is ',Converted,' kg(s)')
+    print(f'The weight is {Converted} kg(s)')
