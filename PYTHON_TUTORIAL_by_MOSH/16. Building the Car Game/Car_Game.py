@@ -2,10 +2,15 @@
 This is a car building game.
 Here we will run car
 '''
+a=0
 while True:
     command = input('>').lower()
     if command == 'start':
-        print('Car started.')
+        if(a == 0):
+            print('Car started.')
+            a+=1
+        else:
+            print("Car is already started.")
     elif command == 'stop':
         print('Car stopped.')
     elif command == 'quit':
