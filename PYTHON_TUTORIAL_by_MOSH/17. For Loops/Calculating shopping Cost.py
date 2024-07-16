@@ -1,8 +1,8 @@
 '''
 In this project, calculate all the costs in the shopping.
 '''
-Shopping_list = [10,15,12,23]
+shopping_list = [10,12,15,23,37,43]
 total = 0
-for supraaa in Shopping_list:
-    total = total + supraaa
-print(f"The total cost is : {total}")
+for args in shopping_list:
+    total += args
+print(f'Total is {total} taka')
