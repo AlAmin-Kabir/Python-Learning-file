@@ -8,7 +8,8 @@ for x in x_count:
     for y in range(x):
         output +='x'
     print(output)
-x_count = [5,2,5,2,2]
+# Using the normal loop
+'''x_count = [5,2,5,2,2]
 for x in x_count:
     hi = ('x'*x)
-    print(hi)
+    print(hi)'''
