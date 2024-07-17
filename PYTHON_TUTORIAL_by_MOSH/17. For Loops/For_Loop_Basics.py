@@ -4,4 +4,5 @@
 '''
 a = ['Spicy','Sticky','Beaf Steak']
 for talika in a:
-    print(talika)
+    print(talika)  
+    print(a)
