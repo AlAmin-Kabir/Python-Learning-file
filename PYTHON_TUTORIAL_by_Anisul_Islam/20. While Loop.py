@@ -1,0 +1,12 @@
+'''
+FORMAT-
+Initialization
+while condition:
+    statements
+    update
+'''
+i = 1
+while i<=10:
+    print(i)
+    i = i+1
+print("End.")
